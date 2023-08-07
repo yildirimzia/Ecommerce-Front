@@ -76,14 +76,11 @@ function ProductBox({ _id, title, price, description, images }) {
                         ${price}
                     </Price>
 
-                    <Button primary outline>
+                    <Button primary={1} outline={1}>
                         <CartIcon />
                         Add to cart
                     </Button>
                 </PriceRow>
-
-
-
             </ProductInfoBox>
         </productWrapper>
 
