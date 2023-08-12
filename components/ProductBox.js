@@ -83,7 +83,7 @@ function ProductBox({ _id, title, price, description, images }) {
 
           <Button onClick={() => addProduct(_id)} primary={1} outline={1}>
             <CartIcon />
-            Add to cart
+            Add to cart ${price}
           </Button>
         </PriceRow>
       </ProductInfoBox>
